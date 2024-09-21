@@ -2,6 +2,10 @@
 Pour permettre d'exploiter les données de la table des consignations de la GTC, dans le cadre d'analyses avec des notebooks ou avec des applications embarquées sur un Smartphone, 
 on propose de placer ces données dans une table ***BigQuery***.  
 L'objectif est que la table soit alimentée en temps réel depuis la GTC (sur le réseau technique).  
+Les fichiers fournis par Actemium n'avaient pas tous les mêmes formats, mais les plus complets contenaient les champs suivants :  
+"chrono","loglist","evtnumber","name","value","quality","ts","domain","nature","description","alarmlevel","equipement","utilisateur","evenement","etat","variable"  
+Il faudra vérifier si cette information est complète, mais cela constitue certainement une bonne base.  
+Les analyses montreront sans doute que certains champs ne sont pas utiles et on pourra envisager dans un deuxième temps de filtrer les données envoyées en ligne.
 
 Ce programme permet d'ajouter des enregistrements dans la table BigQuery `tunnels-dirif.GTC.Consignations`.  
 Le code pourra être intégré dans un programme activé toutes les minutes, sur le réseau technique, à la suite d'une requête sélectionnant les données produites par la GTC pendant la dernière minute.
@@ -13,7 +17,6 @@ Si le programme est appelé dans ***Google CLoud Shell*** connecté au même pro
 
 Si le programme est appelé depuis une autre machine, il faut effectuer la procédure d'authentification documentée ici :`https://cloud.google.com/bigquery/docs/authentication#client-libs`
 
-"loglist","evtnumber","name","value","quality","ts","domain","nature","description","alarmlevel","equipement","utilisateur","evenement","etat","variable"
 
 
 
