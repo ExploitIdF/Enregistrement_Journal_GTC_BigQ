@@ -23,7 +23,7 @@ Cependant, le format le plus complet contient les champs suivants :
 Il faudra vérifier si cette information est complète, mais cela constitue certainement une bonne base.  
 Les analyses montreront sans doute que certains champs ne sont pas utiles et on pourra envisager dans un deuxième temps de filtrer les données envoyées en ligne.
 
-## Prototyque de programme d'alimentation d'une table BigQuery 
+## Prototype de programme d'alimentation d'une table BigQuery 
 Ce programme permet d'ajouter des enregistrements dans la table BigQuery `tunnels-dirif.GTC.Consignations`.  
 Le code pourra être intégré dans un programme activé toutes les minutes, sur le réseau technique, 
 à la suite d'une requête sélectionnant les données produites par la GTC pendant la dernière minute.
