@@ -3,11 +3,9 @@
 La GTC des tunnels comporte des enregistrements assurant une traçabilité sur son fonctionnement et sur les actions d'exploitation.
 
 
-> [!NOTE] 
+> [!QUESTION] 
 > Quels sont les documents de références sur ce sujet ?
 
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
 
 Le journal le plus riche que l'on identifie à ce stade est le  **journal des consignations**.
 
