@@ -7,7 +7,10 @@ Le journal le plus riche que l'on identifie à ce stade est le  **journal des co
 
 Pour permettre d'exploiter les données du journal des consignations de la GTC, dans le cadre d'analyses avec des notebooks ou avec des applications embarquées sur un Smartphone, 
 on propose de placer ces données dans une table ***BigQuery***.  
-L'objectif est que la table soit alimentée en temps réel depuis la GTC (qui est sur le réseau technique).  
+L'objectif est que la table soit alimentée en temps réel depuis la GTC (qui est sur le réseau technique). 
+
+Les données de la GTC ne contiennent ni informations personnelles ni informations commerciales, elles sont donc *communicables* au sens de la loi CADA.
+Aucune mesure de protection de leur confidentialité n'est nécessaire.
 
 ## En quoi consiste le  journal des consignations ?
 Les fichiers d'extraction du journal des consignations fournis par Actemium en mai 2024 n'avaient pas tous les mêmes formats 
