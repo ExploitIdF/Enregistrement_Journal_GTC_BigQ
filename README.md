@@ -3,6 +3,7 @@
 La GTC des tunnels comporte des enregistrements assurant une traçabilité sur son fonctionnement et sur les actions d'exploitation.
 
 **Note**  
+
 Quels sont les documents de références sur ce sujet ?
 
 Le journal le plus riche que l'on identifie à ce stade est le  **journal des consignations**.
