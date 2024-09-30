@@ -31,7 +31,8 @@ Cela donne l'option de faire tourner le programme depuis Google Cloud Shell ou d
 Si le programme est appelé dans ***Google CLoud Shell*** connecté au même projet que ***BigQuery*** et ***Cloud Storage*** 
 il n'y a rien de plus à faire en termes d'authentification.
 
-Si le programme est appelé depuis une autre machine, il faut effectuer la procédure d'authentification documentée ici :`https://cloud.google.com/bigquery/docs/authentication#client-libs`
+Si le programme est appelé depuis une autre machine, il faut effectuer la procédure d'authentification documentée ici : 
+  `https://cloud.google.com/bigquery/docs/authentication#client-libs`
 
 
 
